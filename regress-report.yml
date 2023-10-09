@@ -3,8 +3,7 @@ test-cases:
 - summary: |
     Поиск существующего товара по ключевому слову
   status: fail
-
-bugreports:
+  bugreports:
 - summary: |
     Проблема с отображением товара при поиске по названию
   environment: |
@@ -20,8 +19,7 @@ bugreports:
 - summary: |
     Поиск несуществующего товара
   status: fail
-
-bugreports: 
+  bugreports: 
 - summary: |
     Не отображается информация об отсутствии товара
   environment: |
@@ -129,8 +127,7 @@ bugreports:
 - summary: |
     Проверка хранения корзины в сессии браузера 
   status: fail
-
-bugreports:
+  bugreports:
 - summary: |
     Корзина не хранится в сессии браузера  
   environment: |
