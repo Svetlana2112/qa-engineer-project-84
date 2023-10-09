@@ -20,8 +20,7 @@ bugreports:
 - summary: |
     Поиск несуществующего товара
   status: fail
-
-bugreports:
+  
 - summary: |
     Не отображается информация об отсутствии товара
   environment: |
@@ -130,7 +129,6 @@ bugreports:
     Проверка хранения корзины в сессии браузера 
   status: fail
 
-bugreports:
 - summary: |
     Корзина не хранится в сессии браузера  
   environment: |
